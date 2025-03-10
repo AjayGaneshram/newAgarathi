@@ -10,7 +10,7 @@ module.exports = {
 			},
 			fontSize: {
 				customLarge: "1.875rem", // Custom text size (30px)
-				customSmall: "0.5rem",  
+				customSmall: "0.5rem",  // Custom text size (14px)
 			  },
 		  },
 	},

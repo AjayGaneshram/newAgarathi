@@ -331,7 +331,7 @@ const TamilAlphabetTable = ({ words }) => {
             {uyirEzhuthukkal.sort().map((uyir, index) => (
               <th
                 key={index}
-                className="bg-gray-200 h-8 font-bold border border-gray-300 text-center text-customSmall md:text-sm"
+                className="bg-gray-200 py-2 font-bold border border-gray-300 text-center text-customSmall md:text-sm"
               >
                 {isUyirHighlighted(uyir) ? (
                   <a

@@ -318,10 +318,13 @@ const TamilAlphabetTable = ({ words }) => {
   const handleNavigate = (letter) => {
     navigate(`/newAgarathi/firstLetter/${letter}`);
   };
+  const tirattuPageNavigate = () => {
+    navigate(`/newAgarathi/allWords`);
+  };
   return (
     <div className="container mx-auto p-4">
       
-      <h2 className="text-2xl font-semibold text-center mb-6 text-primary">
+      <h2 className="text-xl font-semibold text-center mb-6 text-primary">
          அகர வரிசை சொற்கள்
       </h2>
       <h2 className="p-4 text-primary text-center">தேடும் சொல்லின் முதல் எழுத்தை தட்டினால், அவ்வெழுத்தில் தொடங்கும் சொற்களின்  பட்டியலையும், அச்சொற்களின் பொருளையும் அறிந்து கொள்ளலாம்</h2>
@@ -381,6 +384,11 @@ const TamilAlphabetTable = ({ words }) => {
           </tbody>
         </table>
       </div>
+      <h2 className="p-3 text-black text-center"> 
+          சொற்திரட்டு பக்கத்தை அணுகி அனைத்து சொற்களின் பொருளை அறிக. <span
+          className="text-lg text-blue-900 font-semibold flex items-center justify-center cursor-pointer"
+         onClick={()=>tirattuPageNavigate()}
+        >அணுகவும் »</span></h2>
     </div>
   );
 };

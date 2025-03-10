@@ -51,9 +51,10 @@ const WordFirstLetter = ({ wordData }) => {
   }, []);
 
   const filteredWords = useMemo(() => {
+  
     return wordData
       .filter((word) => word.toLowerCase().includes(searchQuery.toLowerCase()))
-      .sort();
+      .sort(new Intl.Collator('ta').compare);
   }, [searchQuery, wordData]);
 
   const groupedWords = useMemo(() => {

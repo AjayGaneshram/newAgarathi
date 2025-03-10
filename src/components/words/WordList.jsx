@@ -9,7 +9,7 @@ const WordList = () => {
 
 	const navigate = useNavigate();
 	const homePageNavigate = () => {
-	  navigate(`/newagarathi/`);
+	  navigate(`/newAgarathi/`);
 	}; 
 	const scrollToTop = () => {
 		window.scrollTo({ top: 0, behavior: "smooth" });

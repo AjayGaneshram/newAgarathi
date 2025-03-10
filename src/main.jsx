@@ -30,17 +30,17 @@ createRoot(document.getElementById('root')).render(
      <Header />
      <Suspense>
      <Routes>
-          <Route path="/newagarathi/" element={ <App /> } />
+          <Route path="/newAgarathi/" element={ <App /> } />
           <Route
-            path="/newagarathi/firstLetter/:letter"
+            path="/newAgarathi/firstLetter/:letter"
             element={<WordsByFirstLetter />}
           />
           <Route
-            path="/newagarathi/word/:wordName"
+            path="/newAgarathi/word/:wordName"
             element={<WordSummary />}
           />
           <Route
-            path="/newagarathi/allWords"
+            path="/newAgarathi/allWords"
             element={<WordList />}
           />
           </Routes>

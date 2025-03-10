@@ -33,11 +33,11 @@ const Header = () => {
 
 
   const homePageNavigate = () => {
-    navigate(`/newagarathi/`);
+    navigate(`/newAgarathi/`);
     setMenuOpen(false);
   };
   const tirattuPageNavigate = () => {
-    navigate(`/newagarathi/allWords`);
+    navigate(`/newAgarathi/allWords`);
   };
 
 

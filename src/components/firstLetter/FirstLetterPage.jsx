@@ -18,7 +18,7 @@ const WordsByFirstLetter = () => {
   }, [outputJson]);
 
   const navigate = useNavigate();
-  const homePageNavigate = () => navigate("/newagarathi/");
+  const homePageNavigate = () => navigate("/newAgarathi/");
 
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
   return (

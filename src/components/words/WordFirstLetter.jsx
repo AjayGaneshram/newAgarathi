@@ -223,7 +223,7 @@ export default WordFirstLetter;
 //   const [searchQuery, setSearchQuery] = useState("");
 //   const inputRef = useRef(null);
 //   const navigate = useNavigate();
-//   const handleNavigate = (word) => navigate(`/newagarathi/word/${word}`);
+//   const handleNavigate = (word) => navigate(`/newAgarathi/word/${word}`);
 //   useEffect(() => {
 //     if (inputRef.current) inputRef.current.focus();
 //   }, []);

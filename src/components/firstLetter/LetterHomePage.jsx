@@ -316,7 +316,7 @@ const TamilAlphabetTable = ({ words }) => {
 
   const navigate = useNavigate();
   const handleNavigate = (letter) => {
-    navigate(`/newagarathi/firstLetter/${letter}`);
+    navigate(`/newAgarathi/firstLetter/${letter}`);
   };
   return (
     <div className="container mx-auto p-4">

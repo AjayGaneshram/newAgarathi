@@ -12,9 +12,7 @@ const WordList = () => {
 	const homePageNavigate = () => {
 	  navigate(`/newAgarathi/`);
 	}; 
-	const scrollToTop = () => {
-		window.scrollTo({ top: 0, behavior: "smooth" });
-	  };
+	
 	useEffect(()=>{
 		outputJson!=null && setWordDetails(
 		(outputJson["eachWord"]))

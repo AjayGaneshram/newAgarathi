@@ -385,10 +385,10 @@ const TamilAlphabetTable = ({ words }) => {
         </table>
       </div>
       <h2 className="p-3 text-black text-center"> 
-          சொற்திரட்டு பக்கத்தை அணுகி அனைத்து சொற்களின் பொருளை அறிக. <span
-          className="text-lg text-blue-900 font-semibold flex items-center justify-center cursor-pointer"
+           <span
+          className="text-lg text-blue-900 font-semibold flex items-center justify-center cursor-pointer underline"
          onClick={()=>tirattuPageNavigate()}
-        >அணுகவும் »</span></h2>
+        >சொற்திரட்டு  </span> பக்கத்தை அணுகி அனைத்து சொற்களின் பொருளை அறிக</h2>
     </div>
   );
 };
